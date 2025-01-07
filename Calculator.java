@@ -4,6 +4,8 @@ public class Calculator{
 			System.out.println(addition(2, 5));
 			System.out.println(substraction(2, 5));
 			System.out.println(multiplication(2, 5));
+			System.out.println(remainderr(2, 5));
+			
 			
 
 
@@ -17,5 +19,8 @@ public class Calculator{
 	}
 	public static double multiplication(double num1, double num2) {
 		return num1 * num2;
+	}
+	public static double remainderr (double num1, double num2) {
+		return num1% num2;
 	}
 }
